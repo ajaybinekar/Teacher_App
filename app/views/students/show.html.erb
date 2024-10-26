@@ -1,0 +1,6 @@
+<!-- app/views/students/show.html.erb -->
+<h1><%= @student.name %></h1>
+<p><strong>Subject:</strong> <%= @student.subject %></p>
+<p><strong>Marks:</strong> <%= @student.marks %></p>
+<%= link_to 'Edit', edit_student_path(@student), class: 'btn btn-primary' %>
+<%= link_to 'Back to Students', students_path, class: 'btn btn-secondary' %>

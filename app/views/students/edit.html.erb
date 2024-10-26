@@ -1,0 +1,15 @@
+<!-- app/views/students/edit.html.erb -->
+<h1>Edit Student</h1>
+
+<%= form_with(model: @student, local: true) do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+
+  <%= form.label :subject %>
+  <%= form.text_field :subject %>
+
+  <%= form.label :marks %>
+  <%= form.number_field :marks %>
+
+  <%= form.submit %>
+<% end %>
