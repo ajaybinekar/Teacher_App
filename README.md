@@ -1,24 +1,46 @@
-# README
+# TeacherPortal
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the Teacher Portal! This application provides a user-friendly interface for teachers to manage student listings, including adding, editing, and deleting student records.
 
-Things you may want to cover:
+## Prerequisites
 
-* Ruby version
+To set up and run this application, you’ll need:
 
-* System dependencies
+- **Ruby version**: 3.1.1
+- **Rails version**: 6.1.7
 
-* Configuration
+## Getting Started
 
-* Database creation
+Follow these steps to clone the repository, set up dependencies, configure the database, and start the server.
 
-* Database initialization
+### 1. Clone the Repository
 
-* How to run the test suite
+```bash
+git clone https://github.com/ajaybinekar/Teacher_App.git
+cd TeacherApp
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### 2. Install Dependencies
 
-* Deployment instructions
+Ensure you’re using the correct version of Ruby and Rails. Then, install the required gems:
 
-* ...
+```bash
+bundle install
+```
+
+### 3. Set Up the Database
+
+```bash
+rails db:create
+rails db:migrate
+```
+
+### 4. Start the Server
+
+```bash
+rails server
+```
+The app will be accessible at [http://localhost:3000](http://localhost:3000).
+---
+Demo:
+https://drive.google.com/file/d/1IZU3-4Ir701pxx5KBaqUE0ljbrWZLIyu/view?usp=sharing
